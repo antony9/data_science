@@ -30,3 +30,5 @@ df = df.drop(totals)
 platform_counts = df['Platform'].value_counts()
 platform_counts.plot(kind='barh', rot=0)
 
+from pylab import *
+show()
